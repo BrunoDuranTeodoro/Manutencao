@@ -28,7 +28,6 @@ public class Manutencao {
     @Column(length = 100, nullable = false)
     private String title;
 
-    @Size(min = 3, max = 100)
     @NotBlank
     @Column(length = 100, nullable = false)
     private String setor;
